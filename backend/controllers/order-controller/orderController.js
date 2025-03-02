@@ -146,7 +146,9 @@ async function verifyOrder(req, res) {
     //   .status(200)
     //   .json({ success: true, message: "order confirmed.", order });
 
-    res.redirect("https://mern-lms-lb3z.onrender.com/payment-success");
+    setTimeout(()=>{
+      res.redirect("https://mern-lms-lb3z.onrender.com/payment-success");
+    },2000)
   } catch (error) {
     return res
       .status(404)
