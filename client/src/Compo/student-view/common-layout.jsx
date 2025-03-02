@@ -1,5 +1,5 @@
 import React from "react";
-import StudentViewCommonHeader from "./Header";
+import StudentViewCommonHeader from "./header.jsx";
 import { Outlet } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
